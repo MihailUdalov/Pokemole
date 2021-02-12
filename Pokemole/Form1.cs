@@ -19,13 +19,14 @@ namespace Pokemole
         bool end = true;
         bool banscore = false;
         bool soundoff = false;
+        public WMPLib.WindowsMediaPlayer WMP = new WMPLib.WindowsMediaPlayer();
+
         public Form1()
         {
             InitializeComponent();
 
         }
-        public WMPLib.WindowsMediaPlayer WMP = new WMPLib.WindowsMediaPlayer();
-
+       
         private void EndButton_Click(object sender, EventArgs e)
         {
             end = true;
@@ -36,8 +37,8 @@ namespace Pokemole
             MessageBoxIcon.None,
             MessageBoxDefaultButton.Button1,
             MessageBoxOptions.DefaultDesktopOnly);
-            Application.Exit();
             WMP.close();
+            Application.Exit();
 
         }
         private void ClearButton_Click(object sender, EventArgs e)
@@ -117,7 +118,7 @@ namespace Pokemole
 
         private void playSimpleSound()
         {
-            WMP.URL = @"C:\Users\Михаил\Downloads\Les-Paul-Guitar-Boogie.mp3";
+            WMP.URL = @"C:\Users\Михаил\source\repos\Pokemole\Les-Paul-Guitar-Boogie.mp3";
             WMP.settings.volume = 50; 
             WMP.controls.play();         
         }
