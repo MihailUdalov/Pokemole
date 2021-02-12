@@ -117,9 +117,9 @@ namespace Pokemole
 
         private void playSimpleSound()
         {
-            WMP.URL = @"C:\Users\Михаил\Downloads\Les-Paul-Guitar-Boogie.mp3"; // файл музыкальный
-            WMP.settings.volume = 50; // меняя значение можно регулировать громкость
-            WMP.controls.play(); // Старт           
+            WMP.URL = @"C:\Users\Михаил\Downloads\Les-Paul-Guitar-Boogie.mp3"; 
+            WMP.settings.volume = 50; 
+            WMP.controls.play();         
         }
 
         private void sound_Click(object sender, EventArgs e)

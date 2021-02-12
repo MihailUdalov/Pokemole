@@ -475,7 +475,7 @@
             this.mole0.FlatAppearance.BorderSize = 0;
             this.mole0.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.mole0.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.mole0.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.mole0.ForeColor = System.Drawing.Color.White;
             this.mole0.Image = global::Pokemole.Properties.Resources.imgonline_com_ua_Resize_XDmpqS1Z4zttQZ4x_removebg_preview;
             this.mole0.Location = new System.Drawing.Point(41, 52);
             this.mole0.Name = "mole0";
