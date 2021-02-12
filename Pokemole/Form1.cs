@@ -117,7 +117,7 @@ namespace Pokemole
 
         private void playSimpleSound()
         {
-            WMP.URL = @"C:\Users\Михаил\Downloads\Les-Paul-Guitar-Boogie.mp3"; 
+            WMP.URL = @"C:\Users\Михаил\Downloads\Les-Paul-Guitar-Boogie.mp3";
             WMP.settings.volume = 50; 
             WMP.controls.play();         
         }
