@@ -156,6 +156,7 @@
             // 
             // button13
             // 
+            this.button13.Cursor = System.Windows.Forms.Cursors.Cross;
             this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.button13.Image = global::Pokemole.Properties.Resources.imgonline_com_ua_Resize_XDmpqS1Z4zttQZ4x_removebg_preview;
@@ -168,6 +169,7 @@
             // 
             // button14
             // 
+            this.button14.Cursor = System.Windows.Forms.Cursors.Cross;
             this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.button14.Image = global::Pokemole.Properties.Resources.imgonline_com_ua_Resize_XDmpqS1Z4zttQZ4x_removebg_preview;
@@ -180,6 +182,7 @@
             // 
             // button15
             // 
+            this.button15.Cursor = System.Windows.Forms.Cursors.Cross;
             this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.button15.Image = global::Pokemole.Properties.Resources.imgonline_com_ua_Resize_XDmpqS1Z4zttQZ4x_removebg_preview;
@@ -192,6 +195,7 @@
             // 
             // button16
             // 
+            this.button16.Cursor = System.Windows.Forms.Cursors.Cross;
             this.button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.button16.Image = global::Pokemole.Properties.Resources.imgonline_com_ua_Resize_XDmpqS1Z4zttQZ4x_removebg_preview;
@@ -204,6 +208,7 @@
             // 
             // button17
             // 
+            this.button17.Cursor = System.Windows.Forms.Cursors.Cross;
             this.button17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.button17.Image = global::Pokemole.Properties.Resources.imgonline_com_ua_Resize_XDmpqS1Z4zttQZ4x_removebg_preview;
@@ -217,7 +222,7 @@
             // button18
             // 
             this.button18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button18.Cursor = System.Windows.Forms.Cursors.Default;
+            this.button18.Cursor = System.Windows.Forms.Cursors.Cross;
             this.button18.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.button18.FlatAppearance.BorderSize = 0;
             this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -233,6 +238,7 @@
             // 
             // button7
             // 
+            this.button7.Cursor = System.Windows.Forms.Cursors.Cross;
             this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.button7.Image = global::Pokemole.Properties.Resources.imgonline_com_ua_Resize_XDmpqS1Z4zttQZ4x_removebg_preview;
@@ -245,6 +251,7 @@
             // 
             // button8
             // 
+            this.button8.Cursor = System.Windows.Forms.Cursors.Cross;
             this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.button8.Image = global::Pokemole.Properties.Resources.imgonline_com_ua_Resize_XDmpqS1Z4zttQZ4x_removebg_preview;
@@ -257,6 +264,7 @@
             // 
             // button9
             // 
+            this.button9.Cursor = System.Windows.Forms.Cursors.Cross;
             this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.button9.Image = global::Pokemole.Properties.Resources.imgonline_com_ua_Resize_XDmpqS1Z4zttQZ4x_removebg_preview;
@@ -269,6 +277,7 @@
             // 
             // button10
             // 
+            this.button10.Cursor = System.Windows.Forms.Cursors.Cross;
             this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.button10.Image = global::Pokemole.Properties.Resources.imgonline_com_ua_Resize_XDmpqS1Z4zttQZ4x_removebg_preview;
@@ -281,6 +290,7 @@
             // 
             // button11
             // 
+            this.button11.Cursor = System.Windows.Forms.Cursors.Cross;
             this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.button11.Image = global::Pokemole.Properties.Resources.imgonline_com_ua_Resize_XDmpqS1Z4zttQZ4x_removebg_preview;
@@ -294,7 +304,7 @@
             // button12
             // 
             this.button12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button12.Cursor = System.Windows.Forms.Cursors.Default;
+            this.button12.Cursor = System.Windows.Forms.Cursors.Cross;
             this.button12.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.button12.FlatAppearance.BorderSize = 0;
             this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -310,6 +320,7 @@
             // 
             // button1
             // 
+            this.button1.Cursor = System.Windows.Forms.Cursors.Cross;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.button1.Image = global::Pokemole.Properties.Resources.imgonline_com_ua_Resize_XDmpqS1Z4zttQZ4x_removebg_preview;
@@ -322,6 +333,7 @@
             // 
             // button2
             // 
+            this.button2.Cursor = System.Windows.Forms.Cursors.Cross;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.button2.Image = global::Pokemole.Properties.Resources.imgonline_com_ua_Resize_XDmpqS1Z4zttQZ4x_removebg_preview;
@@ -334,6 +346,7 @@
             // 
             // button3
             // 
+            this.button3.Cursor = System.Windows.Forms.Cursors.Cross;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.button3.Image = global::Pokemole.Properties.Resources.imgonline_com_ua_Resize_XDmpqS1Z4zttQZ4x_removebg_preview;
@@ -346,6 +359,7 @@
             // 
             // button4
             // 
+            this.button4.Cursor = System.Windows.Forms.Cursors.Cross;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.button4.Image = global::Pokemole.Properties.Resources.imgonline_com_ua_Resize_XDmpqS1Z4zttQZ4x_removebg_preview;
@@ -358,6 +372,7 @@
             // 
             // button5
             // 
+            this.button5.Cursor = System.Windows.Forms.Cursors.Cross;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.button5.Image = global::Pokemole.Properties.Resources.imgonline_com_ua_Resize_XDmpqS1Z4zttQZ4x_removebg_preview;
@@ -371,7 +386,7 @@
             // button6
             // 
             this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button6.Cursor = System.Windows.Forms.Cursors.Default;
+            this.button6.Cursor = System.Windows.Forms.Cursors.Cross;
             this.button6.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.button6.FlatAppearance.BorderSize = 0;
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -387,6 +402,7 @@
             // 
             // mole5
             // 
+            this.mole5.Cursor = System.Windows.Forms.Cursors.Cross;
             this.mole5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.mole5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.mole5.Image = global::Pokemole.Properties.Resources.imgonline_com_ua_Resize_XDmpqS1Z4zttQZ4x_removebg_preview;
@@ -399,6 +415,7 @@
             // 
             // mole4
             // 
+            this.mole4.Cursor = System.Windows.Forms.Cursors.Cross;
             this.mole4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.mole4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.mole4.Image = global::Pokemole.Properties.Resources.imgonline_com_ua_Resize_XDmpqS1Z4zttQZ4x_removebg_preview;
@@ -411,6 +428,7 @@
             // 
             // mole3
             // 
+            this.mole3.Cursor = System.Windows.Forms.Cursors.Cross;
             this.mole3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.mole3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.mole3.Image = global::Pokemole.Properties.Resources.imgonline_com_ua_Resize_XDmpqS1Z4zttQZ4x_removebg_preview;
@@ -423,6 +441,7 @@
             // 
             // mole2
             // 
+            this.mole2.Cursor = System.Windows.Forms.Cursors.Cross;
             this.mole2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.mole2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.mole2.Image = global::Pokemole.Properties.Resources.imgonline_com_ua_Resize_XDmpqS1Z4zttQZ4x_removebg_preview;
@@ -435,6 +454,7 @@
             // 
             // mole1
             // 
+            this.mole1.Cursor = System.Windows.Forms.Cursors.Cross;
             this.mole1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.mole1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.mole1.Image = global::Pokemole.Properties.Resources.imgonline_com_ua_Resize_XDmpqS1Z4zttQZ4x_removebg_preview;
@@ -448,7 +468,9 @@
             // mole0
             // 
             this.mole0.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.mole0.Cursor = System.Windows.Forms.Cursors.Default;
+            this.mole0.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.mole0.CausesValidation = false;
+            this.mole0.Cursor = System.Windows.Forms.Cursors.Cross;
             this.mole0.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.mole0.FlatAppearance.BorderSize = 0;
             this.mole0.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -459,6 +481,7 @@
             this.mole0.Name = "mole0";
             this.mole0.Size = new System.Drawing.Size(89, 106);
             this.mole0.TabIndex = 10;
+            this.mole0.UseMnemonic = false;
             this.mole0.UseVisualStyleBackColor = false;
             this.mole0.Click += new System.EventHandler(this.moles_Click);
             // 
@@ -513,7 +536,6 @@
         private System.Windows.Forms.Button EndButton;
         private System.Windows.Forms.Button ClearButton;
         private System.Windows.Forms.TextBox ScoreBox;
-        private System.Windows.Forms.Button mole0;
         private System.Windows.Forms.Button mole1;
         private System.Windows.Forms.Button mole2;
         private System.Windows.Forms.Button mole3;
@@ -543,6 +565,7 @@
         private System.Windows.Forms.Button button17;
         private System.Windows.Forms.Button button18;
         private System.Windows.Forms.Button sound;
+        private System.Windows.Forms.Button mole0;
     }
 }
 
