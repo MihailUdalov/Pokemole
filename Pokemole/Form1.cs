@@ -13,6 +13,7 @@ namespace Pokemole
 {
     public partial class Form1 : Form
     {
+        int j = 10;
         int i;
         int score = 0;
         bool end = true;
@@ -29,7 +30,7 @@ namespace Pokemole
         {
             end = true;
             MessageBox.Show(
-            "You score:" + score.ToString() + "\nDuring the:" + ((i / 60) / 60).ToString() + "::" + (i / 60).ToString() + "::" + (i % 60).ToString(),
+            "You score:" + score.ToString() + "\nDuring the:" + ((i / 60) / 60).ToString() + "::" + ((i / 60) / 60).ToString() + "::" + (i / 60).ToString() + "::" + (i % 60).ToString(),
             "Game Over",
             MessageBoxButtons.OK,
             MessageBoxIcon.None,
@@ -54,33 +55,39 @@ namespace Pokemole
                 pokemole[j].Visible = true;
                 banscore = false;
             }
-            WMP.controls.stop(); 
+            WMP.controls.stop();
 
         }
         private void moleTimer_Tick(object sender, EventArgs e)
         {
+            double d;
             if (end == false)
             {
-                i = 30 + i;
+                if (moleTimer.Interval > 100)
+                    if ((i / 60) == j)
+                    {
+                        moleTimer.Interval = moleTimer.Interval - 100;
+                        j = j + 10;
+                    }
+                d = moleTimer.Interval;
+                d = d / 1000 * 60;
+                i = Convert.ToInt32(d) + i;
                 TimeBox.Text = ((i / 60) / 60).ToString() + "::" + ((i / 60) / 60).ToString() + "::" + (i / 60).ToString() + "::" + (i % 60).ToString();
                 Random rnd = new Random();
                 int mole = rnd.Next(0, 23);
                 Button[] pokemole = { mole0, mole1, mole2, mole3, mole4, mole5,button1,button10,button11,button12,button13,button14,
                     button15,button16,button17,button18,button2,button3,button4,button5,button6,button7,button8,button9 };
-                if (i % 1 == 0)
+                for (int j = 0; j < 24; j++)
                 {
-                    for (int j = 0; j < 24; j++)
+                    pokemole[j].Visible = false;
+                    if (mole == j)
                     {
-                        pokemole[j].Visible = false;
-                        if (mole == j)
-                        {
-                            pokemole[j].Visible = true;
-                        }
-                        banscore = true;
+                        pokemole[j].Visible = true;
                     }
+                    banscore = true;
                 }
                 if (soundoff == true)
-                    WMP.controls.stop();
+                    WMP.controls.pause();
                 if (soundoff == false)
                     WMP.controls.play();
                 ScoreBox.Text = score.ToString();
